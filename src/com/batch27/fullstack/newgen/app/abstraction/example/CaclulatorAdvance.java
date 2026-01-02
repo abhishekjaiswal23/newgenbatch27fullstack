@@ -4,6 +4,7 @@ public class CaclulatorAdvance extends Calculator {
     @Override
     public void multiply() {
         System.out.println("This is multiply method");
+        System.out.println("This is multiply method - updated");
     }
 
     @Override

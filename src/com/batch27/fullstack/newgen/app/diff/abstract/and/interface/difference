@@ -1,0 +1,53 @@
+
+
+
+
+
+
+// abstract class
+
+// abstarct and non astract method
+// 0 - 100% abstraction
+// abstract class can have constructor
+// abstract class always extends with child one
+
+
+
+
+// interfcae
+
+// all methods public and abstract
+// public static final variables
+// 100% abstraction
+// interfcae dont have contsrucor
+// interface implements with child one class
+// interface to interfcae extends
+
+#java 8 changes
+// n number of static and default method
+// only one abstract method we can have
+// @FunctionalInterfcae anotation we have use(optional)
+
+
+
+// difference between abstract class and interface in java
+
+*************************************************************
+
+
+// In which case should use Interface and another case in Abstract class.(Hint - Calculator example)
+
+// provide answer in points
+// 1. Use Interface when you need to define a contract for multiple classes to implement, allowing for multiple inheritance of type.
+// Use Abstract Class when you want to provide a common base with shared code and state for related classes, allowing for single inheritance.
+// 2. Use Interface when you want to achieve full abstraction and define behavior without implementation.
+// Use Abstract Class when you want to provide partial implementation along with abstract methods that must be implemented by subclasses.
+// 3. Use Interface when you need to define capabilities that can be added to any class, regardless of its position in the class hierarchy.
+// Use Abstract Class when you want to establish a clear relationship between classes that share common characteristics.
+// 4. Use Interface when you want to take advantage of polymorphism and allow different classes to be treated uniformly based on shared behavior.
+// Use Abstract Class when you want to enforce a specific structure and provide a common interface for related classes.
+// 5. Use Interface when you want to define a contract that can be implemented by classes from different class hierarchies.
+// Use Abstract Class when you want to create a base class that provides common functionality and state for a group of related classes.
+*************************************************************
+// Provide code example for both abstract class and interface in java
+

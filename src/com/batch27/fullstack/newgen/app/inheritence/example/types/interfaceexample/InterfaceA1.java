@@ -8,6 +8,8 @@ public interface InterfaceA1 extends InterfaceA2, InterfaceA3, InterfaceA4, Inte
     // interface can contain only abstract method.
     // abstract = partial
     // hibrid and multiple inheritance is not supported in java
+    // Interfcae reperesent IS-A relationship in object 
+    
 
 
     // abstarct method = method without body/defination.

@@ -38,6 +38,11 @@ public class InterfcaeImplelemtTest implements InterfaceA1 {
     }
 
     @Override
+    public void mTest() {
+        System.out.println("m test ....");
+    }
+
+    @Override
     public void m7() {
         System.out.println("Implementation of m7 method");
     }

@@ -28,6 +28,10 @@ public interface InterfaceA1 extends InterfaceA2, InterfaceA3, InterfaceA4, Inte
     public void m5();
     public void m6();
 
+
+    public void mTest();
+
+
     @Override
     void m7();
 

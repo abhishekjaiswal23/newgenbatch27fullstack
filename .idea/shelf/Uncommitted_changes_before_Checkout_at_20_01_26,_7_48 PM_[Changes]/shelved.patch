@@ -1,0 +1,17 @@
+Index: src/com/batch27/fullstack/oop/association/aggregation/composition/example/Accounts.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.batch27.fullstack.oop.association.aggregation.composition.example;\n\npublic class Accounts {\n    private final Transactions transaction; // final = wont change after initialized.\n    Accounts() {\n        System.out.println(\"Accounts created....\");\n         transaction = new Transactions(); // created inside\n    }\n}\n
+===================================================================
+diff --git a/src/com/batch27/fullstack/oop/association/aggregation/composition/example/Accounts.java b/src/com/batch27/fullstack/oop/association/aggregation/composition/example/Accounts.java
+--- a/src/com/batch27/fullstack/oop/association/aggregation/composition/example/Accounts.java	(revision 652f23bafeb75dd61edb1cc26c1a3b83f911ca71)
++++ b/src/com/batch27/fullstack/oop/association/aggregation/composition/example/Accounts.java	(date 1768486926945)
+@@ -5,5 +5,8 @@
+     Accounts() {
+         System.out.println("Accounts created....");
+          transaction = new Transactions(); // created inside
++
++        Object obj = new Object();
++
+     }
+ }

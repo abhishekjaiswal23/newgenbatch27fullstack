@@ -1,0 +1,77 @@
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1767622905772)
++++ b/.idea/modules.xml	(date 1767622905772)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/batch27fullstacknewgen.iml" filepath="$PROJECT_DIR$/batch27fullstacknewgen.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: batch27fullstacknewgen.iml
+===================================================================
+diff --git a/batch27fullstacknewgen.iml b/batch27fullstacknewgen.iml
+new file mode 100644
+--- /dev/null	(date 1767622905769)
++++ b/batch27fullstacknewgen.iml	(date 1767622905769)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1767622905777)
++++ b/.idea/.gitignore	(date 1767622905777)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Environment-dependent path to Maven home directory
++/mavenHomeManager.xml
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1767622905775)
++++ b/.idea/vcs.xml	(date 1767622905775)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1767622905780)
++++ b/.idea/misc.xml	(date 1767622905780)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/src/com/batch27/fullstack/newgen/app/classfile/test.txt b/src/com/batch27/fullstack/newgen/app/classfile/test.txt
+new file mode 100644
